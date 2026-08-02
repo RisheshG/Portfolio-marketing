@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
 // ─── DATA ────────────────────────────────────────────────────────────────────
 
@@ -462,7 +462,7 @@ function CaseStudies() {
 }
 
 function Projects() {
-  const [projects, setProjects] = useState(PROJECTS);
+  const projects = PROJECTS;
   return (
     <section id="projects" style={{ padding: "100px 0" }}>
       <div style={{ maxWidth: 1140, margin: "0 auto", padding: "0 32px" }}>
