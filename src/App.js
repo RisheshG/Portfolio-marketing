@@ -278,7 +278,7 @@ function Hero({ scrollTo }) {
             </div>
 
             <h1 style={{ fontSize: "clamp(40px, 5.5vw, 80px)", fontWeight: 900, lineHeight: 1.05, color: "#fff", marginBottom: 24, letterSpacing: "-2px" }}>
-              Where marketing strategy<br />
+              Where marketing<br />
               <span style={{ position: "relative", display: "inline-block" }}>
                 strategy meets
                 <span style={{ position: "absolute", bottom: -4, left: 0, right: 0, height: 4, background: "linear-gradient(90deg, #6366f1, #06b6d4)", borderRadius: 2 }} />
