@@ -583,7 +583,7 @@ function Contact() {
             </p>
             <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
               {[
-                { label: "Email", val: "risheshgangwar@icloud.com", href: "mailto:risheshgangwar@icloud.com" },
+                { label: "Email", val: "rishesh.certificates@gmail.com", href: "mailto:rishesh.certificates@gmail.com" },
                 { label: "LinkedIn", val: "linkedin.com/in/rishesh", href: "https://www.linkedin.com/in/rishesh-gangwar-bb7026241/" },
                 { label: "Location", val: "Noida, India", href: null },
               ].map(c => (
