@@ -9,9 +9,24 @@ const WHAT_I_DO = [
     desc: "I fix broken sender reputations, configure SPF/DKIM/DMARC, manage domain warm-up, and get emails into inboxes not spam folders.",
   },
   {
+    icon: "🎯",
+    title: "Paid Ads Google & Meta",
+    desc: "Google Ads (Search, Performance Max, Display, YouTube) and Meta Ads end to end keyword and audience strategy, Pixel + Conversions API tracking, creative testing, and budget control built to lower CPA.",
+  },
+  {
+    icon: "🔍",
+    title: "SEO",
+    desc: "Technical audits, on-page optimisation, keyword and topic clustering, and content built around high-intent search demand tracked in Ahrefs, SEMrush, and Search Console.",
+  },
+  {
+    icon: "💬",
+    title: "WhatsApp & SMS Marketing",
+    desc: "Push and conversational channels beyond the inbox WhatsApp Business API and SMS journeys for onboarding, adoption, and renewals, with DLT/10DLC/TCPA compliant opt-ins.",
+  },
+  {
     icon: "🚀",
     title: "Growth & GTM",
-    desc: "End-to-end outbound engines lead sourcing, list cleaning, sequencing, LinkedIn outreach, Meta ads. I build the pipeline, not just the campaigns.",
+    desc: "End-to-end outbound engines lead sourcing, list cleaning, sequencing, LinkedIn outreach, paid social. I build the pipeline, not just the campaigns.",
   },
   {
     icon: "🤝",
@@ -29,9 +44,13 @@ const EXPERIENCE = [
   {
     title: "Head of Marketing & Operations",
     company: "Xgrowth LLC",
-    period: "Jul 2026 – Present",
+    period: "Jun 2026 – Present",
     type: "Full-time",
     bullets: [
+      "Run Google Ads (Search, Performance Max, Display, YouTube retargeting) keyword strategy, ad copy testing, GA4 + GTM conversion tracking, and bid/budget management",
+      "Manage Meta Ads across Facebook and Instagram custom and lookalike audiences, Meta Pixel + Conversions API, and full-funnel creative testing",
+      "Lead SEO technical audits, on-page optimisation, and keyword/content strategy tracked via Ahrefs, SEMrush, Screaming Frog, and Google Search Console",
+      "Launched SMS and WhatsApp push marketing WhatsApp Business API and SMS journeys (Twilio, WATI, ManyChat) with DLT/10DLC/TCPA opt-in compliance",
       "90%+ renewal rate across 100+ enterprise accounts (up to $75K/month)",
       "20–30% expansion/upsell revenue growth through proactive account reviews",
       "Built React + AppScript + Python tool to automate domain/IP warm-up across 500+ domains",
@@ -42,10 +61,11 @@ const EXPERIENCE = [
   {
     title: "Email Marketing & Operations Manager",
     company: "Xgrowth LLC",
-    period: "Jun 2025 – Jun 2026",
+    period: "Jun 2025 – May 2026",
     type: "Full-time",
     bullets: [
       "Managed end-to-end email marketing operations for 100+ US and Europe accounts",
+      "Supported Google Ads and Meta Ads campaigns audience building, UTM and conversion tracking, and landing page optimisation",
       "Oversaw deliverability infrastructure, campaign strategy, and client success across the portfolio",
       "Led cross-functional team spanning client support, deliverability, and operations",
     ],
@@ -93,6 +113,44 @@ const CASE_STUDIES = [
       { num: "100+", label: "Domains on Automation" },
     ],
     outcome: "The client stayed, expanded their contract, and the automation tool we built in the process is now deployed across every client account.",
+  },
+  {
+    tag: "Paid Acquisition · Google & Meta Ads",
+    color: "#ec4899",
+    title: "Rebuilding paid acquisition on Google Ads and Meta Ads around real conversion data",
+    challenge: "Paid spend was running across Google and Meta with no reliable conversion tracking. Every platform reported a different number, budget was spread thin across broad campaigns, and cost per qualified lead kept climbing while sales complained about lead quality.",
+    action: [
+      "Rebuilt measurement first GA4 event model, Google Tag Manager container, Meta Pixel plus Conversions API for server-side tracking, and UTM standardisation so platform and CRM data finally reconciled",
+      "Restructured Google Ads into intent tiers: exact-match Search on high-intent deliverability and cold-email terms, Performance Max for broad capture, and YouTube/Display strictly for retargeting backed by a hard negative-keyword list",
+      "Rebuilt Meta Ads as a full funnel cold prospecting to lookalikes off CRM customer lists, mid-funnel education creative, and retargeting for site visitors and trial drop-offs",
+      "Ran continuous creative and copy testing (hooks, offers, landing pages), shifted budget weekly to the winning ad sets, and fed closed-won CRM data back as the optimisation signal instead of raw form fills",
+    ],
+    result: [
+      { num: "Server-side", label: "Pixel + CAPI Tracking" },
+      { num: "2 Platforms", label: "Google + Meta Managed" },
+      { num: "Full-Funnel", label: "Cold → Retargeting" },
+      { num: "CRM-Fed", label: "Conversion Signal" },
+    ],
+    outcome: "Paid became a predictable channel instead of a guess: one source of truth for conversions, budget concentrated on the campaigns producing qualified pipeline, and a retargeting layer capturing demand that SEO and outbound were already creating.",
+  },
+  {
+    tag: "WhatsApp & SMS Marketing",
+    color: "#22c55e",
+    title: "Taking lifecycle marketing beyond the inbox with WhatsApp and SMS",
+    challenge: "Onboarding and renewal communication lived entirely in email. New accounts stalled before first value, renewal reminders got buried, and clients in India and the Middle East simply didn't check email the way they check WhatsApp.",
+    action: [
+      "Set up the WhatsApp Business API and SMS stack (Twilio, WATI, ManyChat) with verified business profile, approved message templates, and clean fallback from WhatsApp to SMS",
+      "Built compliant opt-in flows DLT registration for India, 10DLC for US traffic, TCPA-aligned consent capture and one-tap opt-out on every send",
+      "Designed lifecycle journeys instead of blasts: onboarding nudges timed to setup milestones, feature-adoption prompts, renewal and payment reminders, and re-engagement for accounts going quiet",
+      "Wired the journeys to CRM triggers so messages fire on account behaviour, and used ManyChat comment-to-DM flows on social to convert engagement into opted-in conversations",
+    ],
+    result: [
+      { num: "WhatsApp API", label: "Verified & Live" },
+      { num: "Multi-Channel", label: "WhatsApp + SMS Fallback" },
+      { num: "Behaviour", label: "CRM-Triggered Journeys" },
+      { num: "Compliant", label: "DLT · 10DLC · TCPA" },
+    ],
+    outcome: "Onboarding and renewal messages now reach clients on the channel they actually read, with faster replies than email ever produced and a fully opted-in, compliance-clean subscriber base to build on.",
   },
   {
     tag: "GTM from Zero",
@@ -193,6 +251,18 @@ const PROJECTS = [
 
 const TOOLS = [
   {
+    category: "Paid Ads",
+    items: ["Google Ads", "Google Ads Editor", "Google Keyword Planner", "Performance Max", "YouTube Ads", "Meta Ads Manager", "Meta Business Suite", "LinkedIn Campaign Manager", "Meta Pixel", "Conversions API", "Google Tag Manager"],
+  },
+  {
+    category: "SEO",
+    items: ["Ahrefs", "SEMrush", "Screaming Frog", "Moz", "Ubersuggest", "Surfer SEO", "Google Search Console", "Google Keyword Planner", "PageSpeed Insights", "Schema Markup", "RankMath", "Yoast"],
+  },
+  {
+    category: "WhatsApp, SMS & Push",
+    items: ["WhatsApp Business API", "Twilio", "WATI", "Interakt", "Gupshup", "MSG91", "ManyChat", "OneSignal", "Firebase Cloud Messaging", "DLT", "10DLC", "TCPA Compliance"],
+  },
+  {
     category: "CRM & Outreach",
     items: ["HubSpot", "Zoho CRM", "Apollo", "Instantly", "Smartlead", "SalesHandy", "Lemlist", "Woodpecker", "ActiveCampaign", "Mailchimp", "Klaviyo", "xEmailCampaign"],
   },
@@ -214,7 +284,7 @@ const TOOLS = [
   },
   {
     category: "Analytics & Reporting",
-    items: ["Google Data Studio", "Tableau", "Microsoft Clarity", "Zoho SalesIQ"],
+    items: ["GA4", "Google Search Console", "Looker Studio", "Google Data Studio", "Tableau", "Microsoft Clarity", "Zoho SalesIQ"],
   },
   {
     category: "Ops & Productivity",
@@ -288,7 +358,7 @@ function Hero({ scrollTo }) {
 
             <p style={{ fontSize: 18, color: "#6b7280", lineHeight: 1.75, maxWidth: 520, marginBottom: 40 }}>
               I'm <strong style={{ color: "#e5e7eb" }}>Rishesh Gangwar</strong> Head of Marketing & Customer Success at Xgrowth LLC.
-              I grow B2B SaaS revenue, fix deliverability problems at the DNS level, and ship React apps to automate the work most marketers do manually.
+              I run full-funnel growth across Google Ads, Meta Ads, SEO, email, and WhatsApp/SMS fix deliverability problems at the DNS level, and ship React apps to automate the work most marketers do manually.
             </p>
 
             <div style={{ display: "flex", gap: 14, flexWrap: "wrap", marginBottom: 48 }}>
@@ -320,7 +390,7 @@ function Hero({ scrollTo }) {
             </div>
             <div style={{ display: "flex", gap: 10 }}>
               <a href="https://www.linkedin.com/in/rishesh-gangwar-bb7026241/" target="_blank" rel="noreferrer" style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)", color: "#9ca3af", padding: "7px 14px", borderRadius: 8, fontSize: 12, fontWeight: 600, textDecoration: "none" }}>LinkedIn ↗</a>
-              <a href="mailto:risheshgangwar@icloud.com" style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)", color: "#9ca3af", padding: "7px 14px", borderRadius: 8, fontSize: 12, fontWeight: 600, textDecoration: "none" }}>Email</a>
+              <a href="mailto:rishesh.certificates@gmail.com" style={{ background: "rgba(255,255,255,0.05)", border: "1px solid rgba(255,255,255,0.08)", color: "#9ca3af", padding: "7px 14px", borderRadius: 8, fontSize: 12, fontWeight: 600, textDecoration: "none" }}>Email</a>
             </div>
           </div>
         </div>
@@ -335,7 +405,7 @@ function WhatIDo() {
       <div style={{ maxWidth: 1140, margin: "0 auto", padding: "0 32px" }}>
         <div style={{ marginBottom: 56 }}>
           <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: 3, color: "#6366f1", textTransform: "uppercase", marginBottom: 12 }}>What I Do</div>
-          <h2 style={{ fontSize: "clamp(28px, 4vw, 44px)", fontWeight: 800, color: "#fff", letterSpacing: "-1px" }}>Four things, done deeply.</h2>
+          <h2 style={{ fontSize: "clamp(28px, 4vw, 44px)", fontWeight: 800, color: "#fff", letterSpacing: "-1px" }}>Every channel, done deeply.</h2>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 24 }}>
           {WHAT_I_DO.map((w, i) => (
@@ -551,7 +621,7 @@ function Tools() {
         <div style={{ marginBottom: 56 }}>
           <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: 3, color: "#6366f1", textTransform: "uppercase", marginBottom: 12 }}>Tools & Stack</div>
           <h2 style={{ fontSize: "clamp(28px, 4vw, 44px)", fontWeight: 800, color: "#fff", letterSpacing: "-1px" }}>The full stack.</h2>
-          <p style={{ fontSize: 16, color: "#6b7280", marginTop: 12 }}>50+ platforms across the full marketing and deliverability workflow.</p>
+          <p style={{ fontSize: 16, color: "#6b7280", marginTop: 12 }}>80+ platforms across paid ads, SEO, email, WhatsApp/SMS, and deliverability.</p>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24 }}>
           {TOOLS.map((group, i) => (
@@ -579,7 +649,7 @@ function Contact() {
             <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: 3, color: "#6366f1", textTransform: "uppercase", marginBottom: 12 }}>Contact</div>
             <h2 style={{ fontSize: "clamp(28px, 4vw, 44px)", fontWeight: 800, color: "#fff", letterSpacing: "-1px", marginBottom: 20 }}>Let's work together.</h2>
             <p style={{ fontSize: 16, color: "#6b7280", lineHeight: 1.75, marginBottom: 40 }}>
-              Open to Customer Success, Head of Marketing, and Growth roles. Based in India, available for remote, hybrid, and on-site roles including international opportunities.
+              Open to Customer Success, Head of Marketing, Performance Marketing, and Growth roles. Based in India, available for remote, hybrid, and on-site roles including international opportunities.
             </p>
             <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
               {[
