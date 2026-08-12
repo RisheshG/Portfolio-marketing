@@ -11,17 +11,17 @@ const WHAT_I_DO = [
   {
     icon: "🎯",
     title: "Paid Ads Google & Meta",
-    desc: "Google Ads (Search, Performance Max, Display, YouTube) and Meta Ads end to end keyword and audience strategy, Pixel + Conversions API tracking, creative testing, and budget control built to lower CPA.",
+    desc: "Google Ads and Meta Ads end to end keyword and audience strategy, ad copy and creative testing, retargeting, and budget control built to lower cost per lead.",
   },
   {
     icon: "🔍",
     title: "SEO",
-    desc: "Technical audits, on-page optimisation, keyword and topic clustering, and content built around high-intent search demand tracked in Ahrefs, SEMrush, and Search Console.",
+    desc: "Technical audits, on-page optimisation, and keyword research built around high-intent search demand tracked in Ahrefs, Google Search Console, and Google Analytics.",
   },
   {
     icon: "💬",
     title: "WhatsApp & SMS Marketing",
-    desc: "Push and conversational channels beyond the inbox WhatsApp Business API and SMS journeys for onboarding, adoption, and renewals, with DLT/10DLC/TCPA compliant opt-ins.",
+    desc: "Push channels beyond the inbox WhatsApp Business API and SMS journeys for onboarding, adoption, and renewals, with opted-in broadcast and drip sequences.",
   },
   {
     icon: "🚀",
@@ -47,10 +47,11 @@ const EXPERIENCE = [
     period: "Jun 2026 – Present",
     type: "Full-time",
     bullets: [
-      "Run Google Ads (Search, Performance Max, Display, YouTube retargeting) keyword strategy, ad copy testing, GA4 + GTM conversion tracking, and bid/budget management",
-      "Manage Meta Ads across Facebook and Instagram custom and lookalike audiences, Meta Pixel + Conversions API, and full-funnel creative testing",
-      "Lead SEO technical audits, on-page optimisation, and keyword/content strategy tracked via Ahrefs, SEMrush, Screaming Frog, and Google Search Console",
-      "Launched SMS and WhatsApp push marketing WhatsApp Business API and SMS journeys (Twilio, WATI, ManyChat) with DLT/10DLC/TCPA opt-in compliance",
+      "Run Google Ads end to end keyword strategy, ad copy testing, conversion tracking, and bid/budget management against CPL and pipeline targets",
+      "Manage Meta Ads across Facebook and Instagram custom and lookalike audiences, retargeting, and full-funnel creative testing",
+      "Lead SEO technical audits, on-page optimisation, and keyword/content strategy tracked via Ahrefs, Google Search Console, and Google Analytics",
+      "Launched SMS and WhatsApp push marketing WhatsApp Business API and Twilio SMS journeys with opt-in flows, broadcast and drip sequences",
+      "Run LinkedIn outreach at scale using Sales Navigator and Waalaxy, plus LinkedIn Ads for paid demand",
       "90%+ renewal rate across 100+ enterprise accounts (up to $75K/month)",
       "20–30% expansion/upsell revenue growth through proactive account reviews",
       "Built React + AppScript + Python tool to automate domain/IP warm-up across 500+ domains",
@@ -65,7 +66,7 @@ const EXPERIENCE = [
     type: "Full-time",
     bullets: [
       "Managed end-to-end email marketing operations for 100+ US and Europe accounts",
-      "Supported Google Ads and Meta Ads campaigns audience building, UTM and conversion tracking, and landing page optimisation",
+      "Supported Google Ads and Meta Ads campaigns audience building, conversion tracking, and landing page optimisation",
       "Oversaw deliverability infrastructure, campaign strategy, and client success across the portfolio",
       "Led cross-functional team spanning client support, deliverability, and operations",
     ],
@@ -120,13 +121,13 @@ const CASE_STUDIES = [
     title: "Rebuilding paid acquisition on Google Ads and Meta Ads around real conversion data",
     challenge: "Paid spend was running across Google and Meta with no reliable conversion tracking. Every platform reported a different number, budget was spread thin across broad campaigns, and cost per qualified lead kept climbing while sales complained about lead quality.",
     action: [
-      "Rebuilt measurement first GA4 event model, Google Tag Manager container, Meta Pixel plus Conversions API for server-side tracking, and UTM standardisation so platform and CRM data finally reconciled",
-      "Restructured Google Ads into intent tiers: exact-match Search on high-intent deliverability and cold-email terms, Performance Max for broad capture, and YouTube/Display strictly for retargeting backed by a hard negative-keyword list",
+      "Fixed measurement first a clean conversion setup in Google Ads and Meta Ads with standardised UTMs and Google Analytics reporting, so platform and CRM data finally reconciled",
+      "Restructured Google Ads by intent high-intent search terms around deliverability and cold email in their own campaigns, backed by a hard negative-keyword list and separate retargeting",
       "Rebuilt Meta Ads as a full funnel cold prospecting to lookalikes off CRM customer lists, mid-funnel education creative, and retargeting for site visitors and trial drop-offs",
       "Ran continuous creative and copy testing (hooks, offers, landing pages), shifted budget weekly to the winning ad sets, and fed closed-won CRM data back as the optimisation signal instead of raw form fills",
     ],
     result: [
-      { num: "Server-side", label: "Pixel + CAPI Tracking" },
+      { num: "One Source", label: "Conversion Tracking" },
       { num: "2 Platforms", label: "Google + Meta Managed" },
       { num: "Full-Funnel", label: "Cold → Retargeting" },
       { num: "CRM-Fed", label: "Conversion Signal" },
@@ -139,18 +140,18 @@ const CASE_STUDIES = [
     title: "Taking lifecycle marketing beyond the inbox with WhatsApp and SMS",
     challenge: "Onboarding and renewal communication lived entirely in email. New accounts stalled before first value, renewal reminders got buried, and clients in India and the Middle East simply didn't check email the way they check WhatsApp.",
     action: [
-      "Set up the WhatsApp Business API and SMS stack (Twilio, WATI, ManyChat) with verified business profile, approved message templates, and clean fallback from WhatsApp to SMS",
-      "Built compliant opt-in flows DLT registration for India, 10DLC for US traffic, TCPA-aligned consent capture and one-tap opt-out on every send",
+      "Set up the WhatsApp Business API and Twilio SMS stack with a verified business profile, approved message templates, and clean fallback from WhatsApp to SMS",
+      "Built opt-in flows with clear consent capture and one-tap opt-out on every send",
       "Designed lifecycle journeys instead of blasts: onboarding nudges timed to setup milestones, feature-adoption prompts, renewal and payment reminders, and re-engagement for accounts going quiet",
-      "Wired the journeys to CRM triggers so messages fire on account behaviour, and used ManyChat comment-to-DM flows on social to convert engagement into opted-in conversations",
+      "Wired broadcast and drip sequences to CRM triggers so messages fire on account behaviour rather than on a fixed calendar",
     ],
     result: [
       { num: "WhatsApp API", label: "Verified & Live" },
       { num: "Multi-Channel", label: "WhatsApp + SMS Fallback" },
       { num: "Behaviour", label: "CRM-Triggered Journeys" },
-      { num: "Compliant", label: "DLT · 10DLC · TCPA" },
+      { num: "Opted-In", label: "Consent-Clean List" },
     ],
-    outcome: "Onboarding and renewal messages now reach clients on the channel they actually read, with faster replies than email ever produced and a fully opted-in, compliance-clean subscriber base to build on.",
+    outcome: "Onboarding and renewal messages now reach clients on the channel they actually read, with faster replies than email ever produced and a fully opted-in subscriber base to build on.",
   },
   {
     tag: "GTM from Zero",
@@ -252,27 +253,27 @@ const PROJECTS = [
 const TOOLS = [
   {
     category: "Paid Ads",
-    items: ["Google Ads", "Google Ads Editor", "Google Keyword Planner", "Performance Max", "YouTube Ads", "Meta Ads Manager", "Meta Business Suite", "LinkedIn Campaign Manager", "Meta Pixel", "Conversions API", "Google Tag Manager"],
+    items: ["Google Ads", "Meta Ads Manager", "LinkedIn Ads"],
   },
   {
     category: "SEO",
-    items: ["Ahrefs", "SEMrush", "Screaming Frog", "Moz", "Ubersuggest", "Surfer SEO", "Google Search Console", "Google Keyword Planner", "PageSpeed Insights", "Schema Markup", "RankMath", "Yoast"],
+    items: ["Ahrefs", "Google Search Console", "Google Analytics", "Keyword Research", "On-Page & Technical SEO"],
   },
   {
-    category: "WhatsApp, SMS & Push",
-    items: ["WhatsApp Business API", "Twilio", "WATI", "Interakt", "Gupshup", "MSG91", "ManyChat", "OneSignal", "Firebase Cloud Messaging", "DLT", "10DLC", "TCPA Compliance"],
+    category: "WhatsApp & SMS",
+    items: ["WhatsApp Business API", "Twilio SMS", "Broadcast & Drip Sequences", "Opt-in Compliance"],
   },
   {
     category: "CRM & Outreach",
     items: ["HubSpot", "Zoho CRM", "Apollo", "Instantly", "Smartlead", "SalesHandy", "Lemlist", "Woodpecker", "ActiveCampaign", "Mailchimp", "Klaviyo", "xEmailCampaign"],
   },
   {
-    category: "LinkedIn & Social",
-    items: ["LinkedIn Sales Navigator", "Waalaxy", "Zoho Social", "Meta Business Suite"],
+    category: "LinkedIn Outreach",
+    items: ["LinkedIn Sales Navigator", "Waalaxy"],
   },
   {
     category: "Lead Generation",
-    items: ["ZoomInfo", "Seamless.ai", "Apollo", "LinkedIn Sales Navigator"],
+    items: ["ZoomInfo", "Seamless.ai", "Apollo"],
   },
   {
     category: "List Cleaning",
@@ -284,7 +285,7 @@ const TOOLS = [
   },
   {
     category: "Analytics & Reporting",
-    items: ["GA4", "Google Search Console", "Looker Studio", "Google Data Studio", "Tableau", "Microsoft Clarity", "Zoho SalesIQ"],
+    items: ["Google Analytics", "Google Search Console", "Google Data Studio", "Tableau", "Microsoft Clarity"],
   },
   {
     category: "Ops & Productivity",
@@ -621,7 +622,7 @@ function Tools() {
         <div style={{ marginBottom: 56 }}>
           <div style={{ fontSize: 12, fontWeight: 700, letterSpacing: 3, color: "#6366f1", textTransform: "uppercase", marginBottom: 12 }}>Tools & Stack</div>
           <h2 style={{ fontSize: "clamp(28px, 4vw, 44px)", fontWeight: 800, color: "#fff", letterSpacing: "-1px" }}>The full stack.</h2>
-          <p style={{ fontSize: 16, color: "#6b7280", marginTop: 12 }}>80+ platforms across paid ads, SEO, email, WhatsApp/SMS, and deliverability.</p>
+          <p style={{ fontSize: 16, color: "#6b7280", marginTop: 12 }}>The platforms I work in daily across paid ads, SEO, email, WhatsApp/SMS, and deliverability.</p>
         </div>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: 24 }}>
           {TOOLS.map((group, i) => (
